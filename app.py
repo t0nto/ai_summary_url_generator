@@ -83,9 +83,9 @@ if st.button("Generate Links", key="generate_links", type="primary"):
         # Debug/Raw View
         st.header("3. Copy the URLs and use them in your website")
         with st.expander("View Raw URLs", expanded=True):
-            st.text("ChatGPT    ")
+            st.text("ChatGPT")
             st.code(chatgpt_url, language="text")
-            st.text("Google")
+            st.text("Google AI Mode")
             st.code(google_url, language="text")
             st.text("Claude")
             st.code(claude_url, language="text")
