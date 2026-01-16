@@ -90,4 +90,4 @@ if st.button("Generate Links", key="generate_links", type="primary"):
             st.text("Claude")
             st.code(claude_url, language="text")
             st.text("Perplexity")
-            st.code(f"Perplexity: {perplexity_url}", language="text")
+            st.code(perplexity_url, language="text")
